@@ -23,7 +23,6 @@
 
 /* main style */
 
-
 header{
     background-color: #FFFFFF;
     padding-top: 15px;
@@ -48,7 +47,6 @@ nav ul a{
    
 }
 
-
 nav ul li{
     display: inline-block;
     
@@ -61,5 +59,89 @@ nav ul li{
     align-items: center;
 }
 
+.header-bg{
+    background-image: url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 648px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+
+.header-content{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+    color: white;
+    max-width: 700px;
 
 
+}
+
+.early-access{
+    background-color:#FFFFFF;
+    color: #30B868;
+    width: 225px;
+
+
+}
+
+.badge{
+background: white;
+color: #1FA463;
+padding:6px 12px;
+border-radius: 20px;
+width: fit-content;
+margin-bottom: 16px;
+font-size: 16px;
+margin-right: auto;
+margin-left: auto;
+
+
+
+
+
+
+}
+
+.btn-primary{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #1FA463;
+}
+
+.btn-secondary{
+    background:rgba(255, 255, 255, 0.2);
+  border: 1px solid white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor:pointer;
+
+}
+
+.bg-text{
+    margin:20px auto 30px;
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 100%;
+    width: 600px; 
+
+}
+
+.banner-heading{
+    font-weight: bold;
+    color: #23d466;
+}
+
+h1{
+    font-size: 45px;
+    margin-bottom:20px ;
+}
