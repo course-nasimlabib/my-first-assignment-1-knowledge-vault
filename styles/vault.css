@@ -20,6 +20,9 @@
     padding:12px 16px;
     border-radius: 4px;
     cursor: pointer;
+    margin: 18px 0;
+    border: none;
+    color: white;
 }
 
 /* main style */
@@ -267,4 +270,39 @@ grid-template-columns: repeat(4,1fr);
     width: 20px;
     height: 20px;
 }
+
+/* This is Credit Card Section */
+
+.credit-card{
+    background-color:#f8fbff;
+    text-align: center;
+    padding: 70px 25px;
+    margin-top: 60px;
+
+}
+
+
+.btn-credit{
+    font-weight: semi-bold;
+    background-color: #30B868;
+    width: 160px;
+    height: 40px;
+    padding:12px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 18px 0;
+    border: none;
+    color: white;
+
+    background-image: url('../assets/ArrowRight.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right 10px center;
+
+}
+
+
+
+
+
 
